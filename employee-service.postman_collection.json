@@ -1,0 +1,86 @@
+{
+	"id": "db1c56e1-804c-4351-8cd8-7f04403228df",
+	"name": "employee-service",
+	"description": null,
+	"auth": null,
+	"events": null,
+	"variables": null,
+	"order": [
+		"d0d09e0d-6229-4436-994e-2190544899cd",
+		"9a27e5bc-1480-4aec-89e4-44dd1a70ba3b",
+		"b100b0a2-8a60-4777-8070-f700b888dee6"
+	],
+	"folders_order": [],
+	"folders": [],
+	"requests": [
+		{
+			"id": "9a27e5bc-1480-4aec-89e4-44dd1a70ba3b",
+			"name": "Get Employee",
+			"url": "http://localhost:8085/employee",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "\n  {\n    \"id\": 6,\n    \"name\": \"Kanishk\"\n  }\n",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "b100b0a2-8a60-4777-8070-f700b888dee6",
+			"name": "Get All Employees List",
+			"url": "http://localhost:8085/employeelist",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "\n  {\n    \"id\": 6,\n    \"name\": \"Kanishk\"\n  }\n",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "d0d09e0d-6229-4436-994e-2190544899cd",
+			"name": "Create Employee",
+			"url": "http://localhost:8085/addemployee",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": [],
+			"folder": null,
+			"rawModeData": "\n  {\n    \"id\": 6,\n    \"name\": \"Kanishk\"\n  }\n",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		}
+	]
+}
